@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Truth Tables</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="logic-gates">LOGIC GATES</h1>
+
+
+
+<h3 id="truth-table">Truth Table</h3>
+
+<table>
+<thead>
+<tr>
+  <th align="center">A</th>
+  <th align="center">B</th>
+  <th align="center">AND</th>
+  <th align="center">OR</th>
+  <th align="center">NAND</th>
+  <th align="center">NOR</th>
+  <th align="center">XOR</th>
+  <th align="center">XNOR</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+</tr>
+</tbody></table>
+
+
+
+
+<h3 id="basic-laws">Basic Laws</h3>
+
+<p>A’ or ¬A = NOT A</p>
+
+<p>AuB or A+B = A OR B</p>
+
+<p>AnB or A*B = A AND B</p>
+
+<p>(A’)’ = A</p>
+
+<p>A*A’ = 0</p>
+
+<p>A+A’ = 1</p>
+
+<p>Order of operations - NOTs, ANDs, ORs.</p>
+
+
+
+<h5 id="demorgans-laws">DeMorgans Laws</h5>
+
+<p>Change all ANDs to ORs or ORs to ANDs, NOT all values. NOT NOT A = A <br>
+e.g. (A*B)’ = (A’+B’)</p>
+
+
+
+<h5 id="karnaugh-maps">Karnaugh Maps</h5>
+
+
+
+<h5 id="examples">Examples</h5>
+
+<ol>
+<li>(A*A’) + B = 0 + B = <strong>B</strong></li>
+<li>(A+B) * (A*C) = <strong>A + B</strong></li>
+<li>(A*B)’ + (A’*B) = A’+B + A’*B = A’(1+B) + B = <strong>A’+B</strong></li>
+<li>AB + (A’B) = B(A + A’) = B(0) = <strong>B</strong></li>
+<li>(A*B’)’ = <strong>A’+B</strong></li>
+<li>((A’*B)*(B*C’)*(A’*C’))’ = A+B’ + B’+C + A+C = <strong>A + B’ + C</strong></li>
+</ol></div></body>
+</html>
