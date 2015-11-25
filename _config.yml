@@ -9,7 +9,7 @@ title:               test
 tagline:             The test
 url:                 http://streuli273.github.io
 paginate:            1
-baseurl:             "http://streuli273.github.io/"
+baseurl:             "http://streuli273.github.io"
 
 # Assets
 #
